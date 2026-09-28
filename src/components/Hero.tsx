@@ -52,7 +52,10 @@ export function Hero() {
         </div>
 
         <div className="mt-10 lg:hidden">
-          <img src={images.hero} alt="Electrical supplies including cable drums, breakers, enclosures and wire coils" className="h-56 w-full rounded-lg object-cover sm:h-72" />
+          <img
+  src={images.hero}
+  alt="Electrical and industrial supplies at SM Enterprises in Hosur"
+/>
         </div>
       </div>
 
