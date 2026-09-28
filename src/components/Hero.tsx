@@ -26,9 +26,9 @@ export function Hero() {
 
   return (
     <section
-      id="home"
-      className="relative isolate overflow-hidden bg-navy-deep pt-[72px]"
-    >
+  id="home"
+  className="relative isolate min-h-[620px] overflow-hidden bg-navy-deep pt-[72px]"
+>
       <img
         src={images.hero}
         alt="Electrical and industrial supplies at SM Enterprises in Hosur"
