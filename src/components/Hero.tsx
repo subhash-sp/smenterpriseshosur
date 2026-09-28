@@ -35,7 +35,7 @@ export function Hero() {
         className="absolute inset-0 h-full w-full object-cover"
       />
 
-      <div className="pointer-events-none absolute inset-0 z-10 hidden bg-gradient-to-r from-navy-deep via-navy-deep/95 to-navy-deep/10 lg:block" />
+     <div className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-b from-navy-deep/20 via-navy-deep/45 to-navy-deep/90 lg:bg-gradient-to-r lg:from-navy-deep lg:via-navy-deep/95 lg:to-navy-deep/10" />
 
       <div className="relative z-20 mx-auto max-w-shell px-5 pb-10 pt-14 lg:px-8 lg:pb-0 lg:pt-24">
         <div className="lg:max-w-[560px]">
@@ -48,9 +48,9 @@ export function Hero() {
 
           <motion.h1
             {...rise(0.05)}
-            className="mt-5 text-4xl font-extrabold leading-[1.08] tracking-tight text-white sm:text-5xl xl:text-[56px]"
+           className="mt-5 text-3xl font-extrabold leading-[1.08] tracking-tight text-white sm:text-5xl xl:text-[56px]"
           >
-            Reliable Supplies.
+           Reliable Supplies.
             <br />
             Stronger Operations.
           </motion.h1>
