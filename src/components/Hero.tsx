@@ -21,7 +21,10 @@ export function Hero() {
     }
   });
   return <section id="home" className="relative isolate overflow-hidden bg-navy-deep pt-[72px]">
-      <img src={images.hero} alt="" className="pointer-events-none absolute inset-y-0 right-0 hidden h-full w-[62%] object-cover lg:block" />
+      <img
+  src={images.hero}
+  alt="Electrical and industrial supplies at SM Enterprises in Hosur"
+/>
       <div className="pointer-events-none absolute inset-0 hidden bg-gradient-to-r from-navy-deep via-navy-deep/95 to-navy-deep/10 lg:block" />
 
       <div className="relative mx-auto max-w-shell px-5 pb-10 pt-14 lg:px-8 lg:pb-0 lg:pt-24">
