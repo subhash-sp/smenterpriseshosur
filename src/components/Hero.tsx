@@ -42,7 +42,7 @@ export function Hero() {
       <img
         src={images.hero}
         alt="Electrical and industrial supplies at SM Enterprises in Hosur"
-        className="absolute inset-0 hidden h-full w-full object-cover lg:block"
+        className="absolute inset-y-0 right-0 hidden h-full w-[62%] object-cover lg:block"
       />
 
       {/* Desktop overlay */}
