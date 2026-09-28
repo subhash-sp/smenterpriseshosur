@@ -53,7 +53,7 @@ export function Hero() {
           ========================================================= */}
 
       <div className="relative z-20 mx-auto max-w-shell px-5 pt-16 sm:px-8 lg:min-h-[700px] lg:px-8 lg:pt-28">
-        <div className="max-w-xl lg:max-w-[680px]">
+        <div className="max-w-xl lg:max-w-[650px]">
           {/* Eyebrow */}
           <motion.p
             {...rise(0)}
