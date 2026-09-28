@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://smenterpriseshosur-eb83.vercel.app/sitemap.xml
